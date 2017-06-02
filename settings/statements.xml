@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+// 
+// This is the place for your statements. The maximum 
+// number of statements is theoretically unlimited, but
+// less then 50 statements are advisable.
+// If your are using German Umlauts and other special 
+// characters, make sure, that you save this XML-file 
+// as an UTF-8-document. White-space inbetween the 
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and 
+// line breaks, is preserved.
+//
+// EXAMPLE
+// Let's define some statements concerning FlashQ:
+// Statement 1: FlashQ is very usefull.
+// Statement 2: I prefer offline surveys.
+// Statement 3: FlashQ is too complicated to configure.
+//
+// Each statement requires a seperate statement-node 
+// consisting out of an opening and a closing tag. The 
+// statement itself goes between this two tags. 
+// The unique statement id is saved as an 
+// attribute called 'id'. We have three exmaple 
+// statements and we need therefore three statement-
+// nodes and one parent-node. 
+//
+// <statements version="1.0" htmlparse="false">
+//   <statement id="1">FlashQ is very usefull.</statement>
+//   <statement id="2">I prefer offline surveys.</statement>
+//   <statement id="3">FlashQ is too complicated to configure</statement>
+// </statements>
+// 
+// ===================================================
+// 
+-->
+
+<statements version="1.0" htmlParse="false">
+  <statement id="1">Fundamentalisme komt overal voor en staat los van etnische achtergrond.</statement>
+  <statement id="2">De religieuze achtergrond bepaalt niet of iemand een verhoogd risico heeft om een terroristische aanslag te plegen.</statement>
+  <statement id="3">Een moslim vormt een hoog risico op een terroristische aanslag.</statement>
+  <statement id="4">Mensen met een donkere huidskleur zijn exotisch en mysterieus.</statement>
+  <statement id="5">Mensen met een donkere huidskleur zijn anders dan Nederlanders.</statement>
+  <statement id="6">Integratie kan alleen slagen als er meer etnisch gemengde huwelijken komen.</statement>
+  <statement id="7">Nederlanders kunnen geen relatie met donkere mensen hebben.</statement>
+  <statement id="8">Allochtonen vormen een verreiking voor de Nederlandse cultuur.</statement>
+  <statement id="9">Nederlanders met een migratie achtergrond hebben vaak andere normen en waarden. Dit is niet per definitie goed of slecht.</statement>
+  <statement id="10">Een allochtoon behoort naar mijn idee minder of niet tot de Nederlandse cultuur.</statement>
+  <statement id="11">Ik probeer me zoveel mogelijk te verdiepen in buitenlandse tradities en gewoonten, zoals muziek, gerechten, taal en feestdagen.</statement>
+  <statement id="12">In het dagelijks leven hou ik niet van niet-Nederlandse tradities en gewoonten, zoals feestdagen, taal, muziek en de gerechten.</statement>
+  <statement id="13">Fatsoen heeft niets met integratie te maken. Asociale migranten verdienen dezelfde rechten als fatsoenlijke autochtonen.</statement>
+  <statement id="14">Migranten en allochtonen zijn niet minder beschaafd dan autochtonen.</statement>
+  <statement id="15">Allochtonen zijn vaak ongemanierd en onbeschaafd</statement>
+  <statement id="16">Niet-christelijke religies passen prima in de Nederlandse cultuur.</statement>
+  <statement id="17">Een gelovige met een niet-christelijke achtergrond hoort niet tot de Nederlandse cultuur.</statement>
+  <statement id="18">Migranten en allochtonen worden vaker dan nodig neergezet als kansarm, en zijn daardoor slachtoffer van discriminatie</statement>
+  <statement id="19">Een migratie achtergrond heeft niet per definitie effect op het opleidings- of beroepsniveau van een persoon.</statement>
+  <statement id="20">Iemand met een buitenlandse achtergrond is arm en profiteert van onze voorzieningen.</statement>
+  <statement id="21">Donkere vrouwen zijn aantrekkelijker dan witte vrouwen.</statement>
+  <statement id="22">Donkere vrouwen zijn minder aantrekkelijk dan witte vrouwen.</statement>
+  <statement id="23">Etnische achtergrond wordt in de media te sterk geassocieerd met criminaliteit, wat discriminatie en racisme to gevolg heeft.</statement>
+  <statement id="24">Allochtonen zijn niet sneller geneigd tot criminele handelingen dan autochtonen.</statement>
+  <statement id="25">Als ik in de media over een verdachte van ciminaliteit hoor, dan betreft dit (bijna) altijd een allochtoon.</statement>
+  
+</statements>

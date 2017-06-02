@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+   <!--
+//
+// ===================================================
+// FlashQ by Christian Hackert and Gernot Braehler
+// ===================================================
+// Configuration file.
+// @author		Christian Hackert <www.hackert.biz/flashq>
+// @version		FlashQ version 1.0
+// ===================================================
+//
+-->
+
+   <config version="1.0" htmlParse="false">
+
+      <!-- title of the study -->
+      <item id="studyTitle">Test Q-sort Etnische Repertoires</item>
+
+      <!-- text-align property(left|right) -->
+      <item id="textAlign">left</item>
+
+      <!-- shuffle cards (true|false)  -->
+      <item id="shuffleCards">true</item>
+
+      <!-- login required (true|false) -->
+      <item id="loginrequired">false</item>
+      <!-- login with common password (leave blank if not required) -->
+      <item id="loginPassword"></item>
+      <!-- URL to individual login script(leave blank if not required) -->
+      <item id="loginUrl"></item>
+      <!-- request mode (post|get) -->
+      <item id="loginUrlMethod"></item>
+
+      <!-- activate/deactivate optional steps (true|false) -->
+      <item id="showStep3">true</item>
+      <item id="showStep4">true</item>
+      <item id="showStep5">true</item>
+
+      <!-- HtmlQ only: disable the in-window back button -->
+      <item id="disableBackButton">true</item>
+
+      <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+      <!-- add label: <label>[STRING]</label> -->
+      <!-- add note: <note>[STRING]</note> -->
+      <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+      <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+      <item id="form">
+         <label>Leeftijd</label>
+         <note>Wat is uw leeftijd?*</note>
+         <input type="text" required="true" maxlength="3" restricted="0-9"></input>
+
+         <label>Geslacht</label>
+         <note>Selecteer uw geslacht.*</note>
+         <input type="radio" required="true">vrouw;man</input>
+
+         <label>Opleidingsniveau</label>
+         <note>Selecteer uw opleidingsniveau*</note>
+         <input type="radio" required="true">MBO of lager;HBO of hoger</input>
+          
+         <label>Beroep</label>
+         <note>Vul in het vak hieronder in wat voor beroep u heeft. Als u geen betaald werk heeft, kunt u het vak leeglaten.</note>
+         <input type="textarea" required="false"></input>
+          
+         <label>Woonduur</label>
+         <note>Hoe lang woont u in uw huidige buurt? (in jaren)*</note>
+         <input type="text" required="true" maxlength="2" restricted="0-9"></input>
+          
+         <label>Sociale achtergrond</label>
+         <note>Bent u in een stedelijk of landelijk gebied opgegroeid?*</note>
+         <input type="radio" required="true">Stedelijk;Landelijk</input>
+
+         <label>Sociale achtergrond</label>
+         <note>Selecteer of u in een wijk/buurt met veel of weinig verschillende etnische achtergronden bent opgegroeid.*</note>
+         <input type="radio" required="true">Er woonden in mijn wijk/buurt voornamelijk mensen met verschillende etnische achtergronden.;Er woonden in mijn wijk/buurt voornamelijk mensen van één etnische groep van allochtoonse afkomst.;Er woonden in mijn wijk/buurt voornamelijk autochtone Nederlanders.</input>
+
+         <label>Sociale achtergrond</label>
+         <note>Selecteer of u in wijk/buurt bent opgegroeid met veel of weinig verschillende inkomens.*</note>
+         <input type="radio" required="true">Er woonden in mijn wijk vooral mensen met verschillende inkomens;Er woonden in mijn wijk/buurt voornamelijk mensen die hetzelfde inkomen hadden.</input>
+          
+         <label>Sociale achtergrond</label>
+         <note>Wat voor beroep had/heeft uw vader?*</note>
+         <input type="textarea" required="true"></input>
+          
+        <label>Sociale achtergrond</label>
+        <note>Wat voor beroep had/heeft uw moeder?*</note>
+        <input type="textarea" required="true"></input>
+          
+        <label>Etnische achtergrond</label>
+        <note>Omschrijf hieronder tot welke etnische groep u uzelf rekent.*</note>
+        <input type="textarea" required="true"></input>
+          
+        <label>Etnische achtergrond</label>
+        <note>Omschrijf hieronder tot welke etnische groep u uw ouders rekent.*</note>
+        <input type="textarea" required="true"></input>
+          
+         <label>Terugkoppeling</label>
+         <note>Geef hieronder aan of u uw selectie tijdens een interview wilt toelichten. Dit interview zal 30 - 60 min duren en kan in overeenstemming plaatsvinden op elke gewenste locatie.*</note>
+         <input type="radio" required="true">Ja;Nee</input>
+         <note>Vul hieronder uw emailadres of telefoonnummer in als u mee wilt doen aan het interview. Ook kunt u uw gegevens invullen als u interesse hebt in een samenvatting van de resultaten van dit onderzoek.</note>
+         <input type="textarea" required="false"></input>
+          
+         <label>Opmerkingen</label>
+         <note>Plaats hier uw opmerkingen over uw eigen achtergrond die u van belang acht in het kader van dit survey. U kunt dit veld leeglaten.</note>
+         <input type="textarea" required="false"></input>
+
+         <note bg="false">Alle velden met een * zijn verplicht.</note>
+      </item>
+
+      <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+      <item id="submitUrl">exe.php?do=save</item>
+
+      <!-- request mode (post|get|firebase) -->
+      <item id="submitUrlMethod">firebase</item>
+
+      <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+      <item id="submitMail">m.j.lindner@uva.nl</item>
+   </config>

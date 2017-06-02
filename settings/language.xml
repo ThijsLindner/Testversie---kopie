@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// In order to translate HtmlQ or to customize the texts,
+// just change the text between the opening and the closing
+// tag. The attribute 'id' is the name of the variable
+// and must remain unchanged.
+//
+// You can use HTML-tags, but you have to braces instead
+// of the normal angle brackets, otherwise the import will fail.
+// Example: {b}bold{/b}
+//
+// If your are using German Umlauts and other special
+// characters, make sure, that you save this XML-file
+// as an UTF-8-document. White-space inbetween the
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and
+// line breaks, is preserved.
+//
+// ===================================================
+//
+-->
+
+<language version="1.0" htmlParse="true">
+
+  <!-- misc -->
+  <item id="btnContinue">Verdergaan...</item>
+  <item id="btnclose">Sluiten</item>
+  <item id="btnHelp">Help me!</item>
+  <item id="btnAgreement">Mee eens</item>
+  <item id="btnNeutral">Neutraal</item>
+  <item id="btnDisagreement">Mee oneens</item>
+  <item id="btnTransfer">Data opsturen</item>
+  <item id="btnMail">Verzend via email</item>
+  <item id="btnPrint">Print data</item>
+  <item id="btnExit">Exit</item>
+  <item id="selectItem">Selecteer aub...</item>
+
+  <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+  <item id="leaveSiteWarning">Uw antwoorden zullen verloren gaan.</item>
+
+  <!-- HtmlQ only: In-App Back Button -->
+  <item id="backButton">Terug</item>
+  <item id="fillInRequiredFields">Voer alle veprlichte velden in.</item>
+
+  <!-- errors -->
+  <item id="errorHead">Foutmelding!</item>
+  <item id="errorWindowTooSmall">Maximaliseer uw browser om gebruik te maken van deze applicatie.</item>
+
+  <!-- welcome screen (leave blank to skip screen) -->
+  <item id="welcomeHead">Welkom!</item>
+  <item id="welcomeText">Dit is een testversie van het onderzoeksinstrument voor het afstudeeronderzoek van Thijs Lindner naar etnische repertoires. Data zal in deze fase niet worden opgeslagen. {br}{br}Commentaar en bug meldingen zijn welkom.{br}</item>
+
+  <!-- user login, only displayed if access is restricted (see config-file) -->
+  <item id="loginHead">User code</item>
+  <item id="loginText">Please enter your user code. Please note, that in this demo any user code will be accepted.{br}{br}{i}Tip: This is an optional step and you can deactivate it in your own survey.{i}</item>
+  <item id="loginFormHeader">User code</item>
+  <item id="loginNoInput">Please insert your user code.</item>
+  <item id="loginInvalidInput">User code invalid</item>
+  <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+  <!-- introduction (leave blank to skip popup) -->
+  <item id="introHead">Introductie</item>
+  <item id="introText">Dit is een onderzoek naar de manier waarop er over etnische minderheden gedacht wordt door autochtone Nederlandse bewoners van verschillende wijken in Amsterdam. Dit survey is onderdeel van het afstudeer- en pomotieproject van UvA student en medewerker Thijs Lindner. Er wordt in dit onderdeel gevraagd of u verschillende stellingen over etnische minderheden wilt sorteren aan de hand van de mate waarin u het eens of oneens bent met de stelling.{br}{br} Let op: Sommige stellingen kunnen een direct en heftig voorkomen hebben. Deze studie heeft niet tot doel te beledigen of te discrimineren. Het doel is in kaart te brengen welke factoren samenhangen met opvattingen over etnische minderheden. Aan het eind van de studie heeft u de mogelijkheid opmerkingen of kritiek te plaatsen.{br}{br} Er worden verschillende termen gebruikt om groepen mensen aan te duiden. De interpretatie van deze definities is aan u en zal in deze studie niet expliciet uitgelegd worden.{br}{br}Maximaliseer uw browser om gebruik te maken van deze applicatie.</item>
+
+  <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+  <item id="step1Head">Stap 1 van 5</item>
+  <item id="step1Text">Lees de volgende stellingen nauwkeurig door en deel ze in drie stapels: een stapel voor stellingen waar u het mee eens neigt te zijn, een stapel waar u het mee oneens neigt te zijn, en een stapel voor de rest.{br}{br}U kunt de stellingen zowel slepen of 1,2 of 3 drukken op uw toetsenbord. Aanpassingen kunnen achteraf gedaan worden.{br}{br}Als u deze instructie opnieuw wilt lezen, druk dan de help-knop links onderaan.</item>
+
+  <!-- step2: sorting (leave blank to skip popup) -->
+  <item id="step2Head">Stap 2 van 5</item>
+  <item id="step2Text">Neem de kaarten van de "MEE EENS" stapel en lees ze opnieuw. U kunt door de stellingen heen scrollen. Selecteer daarna een stelling waarmee u het meest mee eens bent en plaats deze aan de rechterzijde van het score blad onder de "+4".{br}{br}Neem dan de "MEE ONEENS" stapel opnieuw door. Selecteer net als de vorige keer een stelling waar u het meest mee oneens bent en plaats deze aan de rechterzijde van het score blad onder de "-4".{br}{br}Selecteer vervolgens de stellingen waar u het daarna mee eens/oneens bent en plaats deze onder "+3"/"-3". Vervolg dit proces voor alle kaartjes in de "MEE EENS" en "MEE ONEENS" stapels.{br}{br}Tot slot, neem de "NEUTRAAL" stellingen opnieuw door en plaats deze in de nog openstaande vakjes op het score blad.{br}{br}NB: Als u geplaatste stellingen opnieuw wilt lezen, zweef er dan over met de muis.</item>
+
+  <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+  <item id="step3Head">Stap 3 van 5</item>
+  <item id="step3Text">Nu heeft u alle stellingen op het score blad geplaatst. Ga nog eenmaal door uw verdeling heen en verplaats kaarten als u dit wilt.</item>
+
+  <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+  <item id="step4Head">Stap 4 van 5</item>
+  <item id="step4Text">Geef alstublieft aan waarom u het meest eens of oneens bent met de volgende stellingen die u onder "+4"of "-4" hebt geplaatst.</item>
+
+  <!-- step5: additional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+  <item id="step5Head">Stap 5 van 5</item>
+  <item id="step5Text">Tot slot, beantwoord de volgende vragen over uw eigen achtergrond.</item>
+
+  <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+  <item id="transferHead">Stuur data op</item>
+  <item id="transferText">U hebt de survey afgerond. Stuur je data door.</item>
+  <item id="transferFailed">Data uploaden is mislukt. Probeer het opnieuw of mail je resultaten via email (M.J.Lindner@uva.nl).</item>
+    <item id="transferOk">Dank u voor het deelnemen aan dit onderzoek. Door deelname helpt u mee in kaart te brengen hoe opvattingen over etnische minderheden samenhangen met sociale kenmerken.{br}{br}Thijs Lindner{br}m.j.lindner@uva.nl</item>
+
+  <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
+  <item id="mailHead">Stuur aub uw data op naar M.J.Lindner@uva.nl</item>
+  <item id="mailText">U kunt de data per email doorsturen. In dat geval heeft u een mailclient nodig zoals Outlook of Gmail.</item>
+
+  <!-- e-mail-body -->
+  <item id="mailBody">Thank you for participating in our survey. Please do not modify the following text:</item>
+
+  <!-- print out -->
+  <item id="printoutText">Somebody{br}Some street 100{br}Some city{br}{br}Please send this printout to address mentioned above. Thanks for you help.</item>
+
+</language>
